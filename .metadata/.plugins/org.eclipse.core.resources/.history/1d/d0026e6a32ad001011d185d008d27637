@@ -1,0 +1,5 @@
+package com.automatization.cicd;
+
+public class HolaMundo {
+
+}
