@@ -21,6 +21,7 @@ jobs:
           java-version: '21'
 
       - name: Compilar y ejecutar Hola Mundo
+        working-directory: CICD
         run: |
           javac src/com/automatization/cicd/HolaMundo.java
           java -cp src com.automatization.cicd.HolaMundo
